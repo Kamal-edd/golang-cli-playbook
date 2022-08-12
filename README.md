@@ -33,3 +33,11 @@ Use go get to install a package:
 go get github.com/nathan-osman/go-sunrise
 cp .\go.mod .\module3\go.mod.copy
 ```
+
+## Module 4: Compile and install packages using go install
+
+Use go install to compile and install a package
+```
+go install github.com/codemodus/kace
+cp .\go.mod .\module4\go.mod.copy
+```
