@@ -38,6 +38,7 @@ cp .\go.mod .\module3\go.mod.copy
 
 Use go install to compile and install a package
 ```
+go get github.com/codemodus/kace 
 go install github.com/codemodus/kace
 cp .\go.mod .\module4\go.mod.copy
 ```
