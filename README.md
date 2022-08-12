@@ -50,5 +50,14 @@ Install and run the *goimports* command
 go install golang.org/x/tools/cmd/goimports@latest
 cd .\module5\
 goimports -w .\module5_code.go
+cd ..
 
+```
+
+## Module 6: Print the document for a function
+
+Print out the added comment and direct to a file
+```
+cd .\module6\
+go doc FunctionForModule6GoDoc > module6.txt
 ```
