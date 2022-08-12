@@ -60,4 +60,14 @@ Print out the added comment and direct to a file
 ```
 cd .\module6\
 go doc FunctionForModule6GoDoc > module6.txt
+cd ..
+```
+
+## Module 7: Scan for directives and run commands on existing source code
+
+Add the directive, then Run go generate to import the packages
+```
+cd .\module7\
+go generate
+
 ```
